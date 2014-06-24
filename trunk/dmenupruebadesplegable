@@ -289,18 +289,18 @@
         <div id="menu">
                 <ul id="dropline">
                         <li class="home"><a style="color:#fff;width:10px;margin-left:5px;" href="https://sites.google.com/a/bbva.com/portal-gcs/home/" target="_parent" onclick="mark"></a></li>
-                        <li class="top"><a id="plantillas" class="principal" href="https://sites.google.com/a/bbva.com/onboarding/plantillas-peticiones" target="_parent">Plantillas</a>
+                        <li class="top"><a id="plantillas" class="principal" href="https://sites.google.com/a/bbva.com/onboarding/plantillas" target="_parent">Plantillas</a>
                         </li>
                         
                         
-                        <li class="top"><a id="cuestionario" class="principal" href="https://sites.google.com/a/bbva.com/onboarding/cuestionarios-ventas" target="_parent">Cuestionario</a>
+                        <li class="top"><a id="cuestionario" class="principal" href="https://sites.google.com/a/bbva.com/onboarding/cuestionarios" target="_parent">Cuestionario</a>
                         </li>
                         
                                              
                         <li class="top"><a id="servicios" class="principal" href="https://sites.google.com/a/bbva.com/onboarding/catalogo-servicios" target="_parent">Catálogo de servicios</a>
                          <ul style="left:-99999px; display: none;" class="sub floatRight">
-                                                <li><a style="color: rgb(102, 102, 102);"  href="https://sites.google.com/a/bbva.com/portal-gcs/home/metodologia/plantillas-peticiones">Plantillas</a></li>
-                                                <li><a style="color: rgb(102, 102, 102);"  href="https://sites.google.com/a/bbva.com/portal-gcs/home/metodologia/escenarios-de-implementacion">Escenarios</a></li>
+                                                <li><a style="color: rgb(102, 102, 102);"  href="https://sites.google.com/a/bbva.com/portal-gcs/home/metodologia/plantillas">Plantillas</a></li>
+                                                <li><a style="color: rgb(102, 102, 102);"  href="https://sites.google.com/a/bbva.com/portal-gcs/home/metodologia/escenarios">Escenarios</a></li>
                                                 <li><a style="color: rgb(102, 102, 102);"  href="https://sites.google.com/a/bbva.com/portal-gcs/home/metodologia/circuitos">Circuitos</a></li>
                                                 <li><a style="color: rgb(102, 102, 102);"  href="https://sites.google.com/a/bbva.com/portal-gcs/home/metodologia/documentacion">Documentación</a></li>
                                         </ul>
