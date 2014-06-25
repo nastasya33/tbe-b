@@ -292,7 +292,7 @@
                         <li class="top"><a id="Sibos 2014" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/sibos2014/" target="_parent">Sibos 2014</a>
                         </li>
                      
-                        <li class="top"><a id="Forums" class="down" href="https://sites.google.com/a/bbva.com/sibos2014/forums/">Forums</a>
+                        <li class="top"><a style="color:#fff;" class="down" href="https://sites.google.com/a/bbva.com/sibos2014/forums/">Forums</a>
 				  
 				</li>
             <ul style="left:-99999px; display: none;" class="sub">
@@ -328,10 +328,8 @@
                 {
                         document.getElementById("Sibos 2014").style.backgroundColor = "#2586D7";
                 }
-                if (parametros.indexOf("Forums")!=-1)
-                {
-                        document.getElementById("Forums").style.backgroundColor = "#2586d7";
-                }
+                 
+              
                 if (parametros.indexOf("meeting")!=-1)
                 {
                         document.getElementById("meeting").style.backgroundColor = "#2586d7";
