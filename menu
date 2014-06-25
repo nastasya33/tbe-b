@@ -14,7 +14,7 @@
           }               
         </style>
   
-        <table width="100%" border="0" id="tablaconfig">           
+        <table width="120%" border="0" id="tablaconfig">           
                 <tr>       
                         <td>
                                 Root del Site: <input type="text" id="VarrootSite" value="__UP_VarrootSite__"   onchange="registra('VarrootSite')"/>                   
@@ -62,7 +62,7 @@
                 padding:0px; 
                 margin:0; 
                 list-style:none; 
-                width:948px;
+                width:1200px;
         }
         #dropline table {
                 border-collapse:collapse; 
