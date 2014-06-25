@@ -307,7 +307,8 @@
   <li><a style="color: rgb(102, 102, 102);"  href="https://sites.google.com/a/bbva.com/sibos2014/forums/technology-forum">Technology Forum</a></li>
                                         </ul>
 
-                        
+                        <li class="top"><a id="Meeting" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/meeting-agenda" target="_parent">Meeting Agenda</a>
+                        </li>
                                                 
                 </ul>
         </div>
@@ -328,6 +329,10 @@
                 if (parametros.indexOf("Forums")!=-1)
                 {
                         document.getElementById("Forums").style.backgroundColor = "#2586d7";
+                }
+                if (parametros.indexOf("meeting")!=-1)
+                {
+                        document.getElementById("meeting").style.backgroundColor = "#2586d7";
                 }
               
                                   
