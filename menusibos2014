@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="menu Sibos 2014" >
+<ModulePrefs title="menu portal BBVA1" >
         <Require feature="dynamic-height"/>   
         <Require feature="setprefs" />  
 </ModulePrefs>  
@@ -10,11 +10,11 @@
 <![CDATA[
         <style>
                 input#VarrootSite {
-           width: 1100px;
+           width: 300px;
           }               
         </style>
   
-        <table width="120%" border="0" id="tablaconfig">           
+        <table width="100%" border="0" id="tablaconfig">           
                 <tr>       
                         <td>
                                 Root del Site: <input type="text" id="VarrootSite" value="__UP_VarrootSite__"   onchange="registra('VarrootSite')"/>                   
@@ -62,7 +62,7 @@
                 padding:0px; 
                 margin:0; 
                 list-style:none; 
-                width:1100px;
+                width:948px;
         }
         #dropline table {
                 border-collapse:collapse; 
@@ -222,7 +222,7 @@
         {
                 // Construct the breadcrumb string
                 //var rootSite = prefs.getString("VarrootSite");
-                var rootSite = "onboarding";
+                var rootSite = "global-product";
                 var s ="";
                 var i,j,k = 0;
                 var base = "";
@@ -288,54 +288,51 @@
         
         <div id="menu">
                 <ul id="dropline">
-                        <li class="home"><a style="color:#fff;width:10px;margin-left:5px;" href="https://sites.google.com/a/bbva.com/sibos2014/" target="_parent" onclick="mark"></a></li>
-                        <li class="top"><a id="Sibos 2014" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/sibos2014/" target="_parent">Sibos 2014</a>
-                        </li>
+                        <li class="home"><a style="color:#fff;width:10px;margin-left:5px;" href="https://sites.google.com/a/bbva.com/sibos2014" target="_parent" onclick="mark"></a></li>
+                        <li class="top"><a id="sibos2014" class="principal" href="href="https://sites.google.com/a/bbva.com/sibos2014/sibos2014" target="_parent">Sibos 2014</a>
                      
-                        <li class="top"><a style="color:#fff;" class="down" href="https://sites.google.com/a/bbva.com/sibos2014/forums/">Forums</a>
-				  
-				</li>
-            <ul style="left:-99999px; display: none;" class="sub">
-
-                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/compliance-forum">Compliance</a></li>
-                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/corporate-forum">Corporate</a></li>
-                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/innotribe">Innotribe</a></li>
-                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/investment-manager-forum">Investment Manager</a></li>
-                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/market-infrastructures-forum">Market Infrastructures</a></li>
-                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/sibos-university">Sibos University</a></li>
-                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/standards-forum">Standards</a></li>
-  <li><a style="color: rgb(102, 102, 102);"  href="https://sites.google.com/a/bbva.com/sibos2014/forums/technology-forum">Technology</a></li>
-                                        </ul>
-
-
-                        <li class="top"><a id="Meeting" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/meeting-agenda" target="_parent">Meeting Agenda</a>
+                        <li class="top"><a id="forums" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/forums" target="_parent">Forums</a>
+                        <ul style="left:-99999px; display: none;" class="sub">
+                                        
+                                        <li><a href="https://sites.google.com/a/bbva.com/global-product/global-net-cash/manuales" target="_parent">Manuales</a></li>
+                                        <li><a href="https://sites.google.com/a/bbva.com/global-product/global-net-cash/circuitos" target="_parent">Circuitos</a></li>
+                                  
+                                        
+                                        
+                                        
+                        </ul>
+                        </li>
+                        <li class="top"><a id="agenda" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/meeting-agenda" target="_parent">Meeting agenda</a>
+                        
                         </li>
                        
-                                                
+                        
                 </ul>
         </div>
 
         <!-- breadcrumbs-->
         <div id="title-crumbs">breadcrumbs</div>
 
-        <!-- Elemento de men򠳥t visited -->
+        <!-- Elemento de menú set visited -->
         <script type="text/javascript">
         gadgets.util.registerOnLoadHandler(datospagina);
         function datospagina()
         {
                 var parametros = gadgets.util.getUrlParameters()["parent"];     
-                if (parametros.indexOf("Sibos 2014")!=-1)
+                if (parametros.indexOf("sibos2014")!=-1)
                 {
-                        document.getElementById("Sibos 2014").style.backgroundColor = "#2586D7";
+                        document.getElementById("sibos2014").style.backgroundColor = "#2586D7";
                 }
-                 
-              
-                if (parametros.indexOf("meeting")!=-1)
+                if (parametros.indexOf("forums")!=-1)
                 {
-                        document.getElementById("meeting").style.backgroundColor = "#2586d7";
+                        document.getElementById("forums").style.backgroundColor = "#2586d7";
                 }
-              
-                                  
+                if (parametros.indexOf("agenda")!=-1)
+                {
+                        document.getElementById("agenda").style.backgroundColor = "#2586d7";
+                }
+                
+                        
         }
         </script>
 
