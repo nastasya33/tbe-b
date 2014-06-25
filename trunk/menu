@@ -307,8 +307,7 @@
   <li><a style="color: rgb(102, 102, 102);"  href="https://sites.google.com/a/bbva.com/sibos2014/forums/technology-forum">Technology Forum</a></li>
                                         </ul>
 
-                        <li class="top"><a id="Meeting agenda" class="principal" https://sites.google.com/a/bbva.com/sibos2014/meeting-agenda" target="_parent">Meeting Agenda</a>
-                        </li>
+                        
                                                 
                 </ul>
         </div>
@@ -330,10 +329,8 @@
                 {
                         document.getElementById("Forums").style.backgroundColor = "#2586d7";
                 }
-                if (parametros.indexOf("Meeting Agenda")!=-1)
-                {
-                        document.getElementById("Meeting Agenda").style.backgroundColor = "#2586d7";
-                }                        
+              
+                                  
         }
         </script>
 
