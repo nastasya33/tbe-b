@@ -10,11 +10,11 @@
 <![CDATA[
         <style>
                 input#VarrootSite {
-           width: 1200px;
+           width: 1100px;
           }               
         </style>
   
-        <table width="120%" border="0" id="tablaconfig">           
+        <table width="100%" border="0" id="tablaconfig">           
                 <tr>       
                         <td>
                                 Root del Site: <input type="text" id="VarrootSite" value="__UP_VarrootSite__"   onchange="registra('VarrootSite')"/>                   
@@ -62,7 +62,7 @@
                 padding:0px; 
                 margin:0; 
                 list-style:none; 
-                width:1200px;
+                width:1100px;
         }
         #dropline table {
                 border-collapse:collapse; 
@@ -291,6 +291,7 @@
                         <li class="home"><a style="color:#fff;width:10px;margin-left:5px;" href="https://sites.google.com/a/bbva.com/sibos2014/" target="_parent" onclick="mark"></a></li>
                         <li class="top"><a id="Sibos 2014" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/sibos2014/" target="_parent">Sibos 2014</a>
                         </li>
+                         /*
                         <li class="top"><a id="Forums" class="down" href="https://sites.google.com/a/bbva.com/sibos2014/forums/" target="_parent">Forums</a>
                         </li>
                         
@@ -306,6 +307,7 @@
                                                 <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/standards-forum">Standards</a></li>
   <li><a style="color: rgb(102, 102, 102);"  href="https://sites.google.com/a/bbva.com/sibos2014/forums/technology-forum">Technology</a></li>
                                         </ul>
+                                        */
                                         <li class="top"><a style="color:#fff;" class="down" href="https://sites.google.com/a/bbva.com/portal-gcs/home/onboarding-clients">Onboarding Clientes</a>
 					<ul style="left: -99999px; display: none;" class="sub">
 						<li><a style="color: rgb(102, 102, 102);" href="https://sites.google.com/a/bbva.com/portal-gcs/home/onboarding-clients/cuestionarios-ventas">Cuestionarios Ventas</a></li>
