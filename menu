@@ -291,11 +291,11 @@
                         <li class="home"><a style="color:#fff;width:10px;margin-left:5px;" href="https://sites.google.com/a/bbva.com/sibos2014/" target="_parent" onclick="mark"></a></li>
                         <li class="top"><a id="Sibos 2014" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/sibos2014/" target="_parent">Sibos 2014</a>
                         </li>
-                        <li class="top"><a id="Forums" class="top" href="https://sites.google.com/a/bbva.com/sibos2014/forums/" target="_parent">Forums</a>
+                        <li class="top"><a id="Forums" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/forums/" target="_parent">Forums</a>
                         </li>
                         
                         
-<ul style="left:-99999px; display: none;" class="sub floatRight">
+<ul style="left:-99999px; display: ;" class="sub floatRight">
 
                                                 <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/compliance-forum">Compliance Forum</a></li>
                                                 <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/corporate-forum">Corporate Forum</a></li>
