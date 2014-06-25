@@ -290,6 +290,9 @@
                 <ul id="dropline">
                         <li class="home"><a style="color:#fff;width:10px;margin-left:5px;" href="https://sites.google.com/a/bbva.com/sibos2014" target="_parent" onclick="mark"></a></li>
                         <li class="top"><a id="sibos2014" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/sibos2014" target="_parent">Sibos 2014</a>
+                         <li class="top"><a id="accomodation" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/accomodation" target="_parent">Accomodation</a>
+                        
+                        </li>
                      
                         <li class="top"><a id="forums" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/forums" target="_parent">Forums</a>
                         <ul style="left:-99999px; display: none;" class="sub">
@@ -311,7 +314,9 @@
                         <li class="top"><a id="agenda" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/meeting-agenda" target="_parent">Meeting agenda</a>
                         
                         </li>
-                       
+                        <li class="top"><a id="other" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/other-information" target="_parent">Other Information</a>
+                        
+                        </li>
                         
                 </ul>
         </div>
@@ -334,6 +339,14 @@
                         document.getElementById("forums").style.backgroundColor = "#2586d7";
                 }
                 if (parametros.indexOf("agenda")!=-1)
+                {
+                        document.getElementById("agenda").style.backgroundColor = "#2586d7";
+                }
+                 if (parametros.indexOf("accomodation")!=-1)
+                {
+                        document.getElementById("agenda").style.backgroundColor = "#2586d7";
+                }
+                 if (parametros.indexOf("other")!=-1)
                 {
                         document.getElementById("agenda").style.backgroundColor = "#2586d7";
                 }
