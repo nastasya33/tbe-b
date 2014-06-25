@@ -288,23 +288,28 @@
         
         <div id="menu">
                 <ul id="dropline">
-                        <li class="home"><a style="color:#fff;width:10px;margin-left:5px;" href="https://sites.google.com/a/bbva.com/portal-gcs/home/" target="_parent" onclick="mark"></a></li>
-                        <li class="top"><a id="proyecto precuios" class="principal" href="https://sites.google.com/a/bbva.com/proyecto-precios/" target="_parent">Plantillas de peticiones</a>
+                        <li class="home"><a style="color:#fff;width:10px;margin-left:5px;" href="https://sites.google.com/a/bbva.com/sibos2014/" target="_parent" onclick="mark"></a></li>
+                        <li class="top"><a id="Sibos 2014" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/sibos2014/" target="_parent">Sibos 2014</a>
+                        </li>
+                        <li class="top"><a id="Forums" class="principal" href="https://sites.google.com/a/bbva.com/sibos2014/forums/" target="_parent">Forums</a>
                         </li>
                         
                         
-                        <li class="top"><a id="cuestionario" class="principal" href="https://sites.google.com/a/bbva.com/onboarding/cuestionarios-ventas" target="_parent">Cuestionario de ventas</a>
+<ul style="left:-99999px; display: none;" class="sub floatRight">
+
+                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/compliance-forum">Compliance Forum</a></li>
+                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/corporate-forum">Corporate Forum</a></li>
+                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/innotribe">Innotribe</a></li>
+                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/investment-manager-forum">Investment Manager Forum</a></li>
+                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/market-infrastructures-forum">Market Infrastructures Forum</a></li>
+                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/sibos-university">Sibos University</a></li>
+                                                <li><a style="color: rgb(102, 102, 102);"  href=" https://sites.google.com/a/bbva.com/sibos2014/forums/standards-forum">Standards Forum</a></li>
+  <li><a style="color: rgb(102, 102, 102);"  href="https://sites.google.com/a/bbva.com/sibos2014/forums/technology-forum">Technology Forum</a></li>
+                                        </ul>
+
+                        <li class="top"><a id="meeting agenda" class="principal" https://sites.google.com/a/bbva.com/sibos2014/meeting-agenda" target="_parent">Meeting Agenda</a>
                         </li>
-                        
-                        <li class="top"><a id="catalogo" class="principal" href="https://sites.google.com/a/bbva.com/onboarding/catalogo-conexiones-h2h" target="_parent">Catálogo de conexiones H2H</a>
-                        </li>
-                        
-                        <li class="top"><a id="implementacion" class="principal" href="https://sites.google.com/a/bbva.com/onboarding/guias-implementacion-clientes" target="_parent">Guías implementación de clientes</a>
-                        </li>
-                        
-                        <li class="top"><a id="servicios" class="principal" href="https://sites.google.com/a/bbva.com/onboarding/catalogo-servicios" target="_parent">Catálogo de servicios</a>
-                        </li>
-                        
+                                                
                 </ul>
         </div>
 
@@ -317,27 +322,18 @@
         function datospagina()
         {
                 var parametros = gadgets.util.getUrlParameters()["parent"];     
-                if (parametros.indexOf("plantillas")!=-1)
+                if (parametros.indexOf("Sibos 2014")!=-1)
                 {
-                        document.getElementById("plantillas").style.backgroundColor = "#2586D7";
+                        document.getElementById("Sibos 2014").style.backgroundColor = "#2586D7";
                 }
-                if (parametros.indexOf("cuestionario")!=-1)
+                if (parametros.indexOf("Forums")!=-1)
                 {
-                        document.getElementById("cuestionario").style.backgroundColor = "#2586d7";
+                        document.getElementById("Forums").style.backgroundColor = "#2586d7";
                 }
-                if (parametros.indexOf("catalogo")!=-1)
+                if (parametros.indexOf("Meeting Agenda")!=-1)
                 {
-                        document.getElementById("catalogo").style.backgroundColor = "#2586d7";
-                }
-                if (parametros.indexOf("implementacion")!=-1)
-                {
-                        document.getElementById("implementacion").style.backgroundColor = "#2586d7";
-                }
-                if (parametros.indexOf("servicios")!=-1)
-                {
-                        document.getElementById("servicios").style.backgroundColor = "#2586d7";
-                }
-                        
+                        document.getElementById("Meeting Agenda").style.backgroundColor = "#2586d7";
+                }                        
         }
         </script>
 
