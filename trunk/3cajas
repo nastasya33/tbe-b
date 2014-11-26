@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+        <ModulePrefs title="cajetinUnificado.xml "
+                title_url=""
+                height="145"
+                width="940"
+                author=""
+                author_email=""
+                description="Cajetin personalizado un tercio portal Global Customer Solutions"
+                screenshot=""
+                thumbnail=""  
+                scrolling="false"
+                author_location="Madrid, Spain"
+                scaling="false">
+                <Require feature="dynamic-height"/>
+                <Require feature="idi"/>
+                <Require feature="locked-domain" />
+                <Require feature="setprefs"/>
+        </ModulePrefs>  
+        
+        <!--First Block-->
+        <UserPref name="VarTituloBloqueFirstBlock" display_name="Título:" default_value="Global Customer Solutions"/>
+        <UserPref name="VarImagenDestacadaFirstBlock" display_name="Imagen destacada:" default_value=""/>
+        
+        <UserPref name="VarBlock1BotonTexto" display_name="Texto boton:" default_value=""/>
+        <UserPref name="VarBlock1BotonURL" display_name="URL boton:" default_value=""/>
+        
+        <UserPref name="VarComentFirstBlock" display_name="Comentario (admite bbcode)" default_value="Texto adicional"/>        
+        <UserPref name="VarColorLetraFirstBlock" display_name="Color texto por defecto" default_value="#666"/>
+        <UserPref name="VarSizeFirstBlock" display_name="Tamaño de texto por defecto" default_value="12"/>
+        
+        <!--Second Block-->
+        <UserPref name="VarTituloBloqueSecondBlock" display_name="Título:" default_value="Global Customer Solutions"/>
+        <UserPref name="VarImagenDestacadaSecondBlock" display_name="Imagen destacada:" default_value=""/>
+        
+        <UserPref name="VarBlock2BotonTexto" display_name="Texto boton:" default_value=""/>
+        <UserPref name="VarBlock2BotonURL" display_name="URL boton:" default_value=""/>
+        
+        <UserPref name="VarComentSecondBlock" display_name="Comentario (admite bbcode)" default_value="Texto adicional"/>       
+        <UserPref name="VarColorLetraSecondBlock" display_name="Color texto por defecto" default_value="#666"/>
+        <UserPref name="VarSizeSecondBlock" display_name="Tamaño de texto por defecto" default_value="12"/>
+        
+        <!--Third Block-->
+        <UserPref name="VarTituloBloqueThirdBlock" display_name="Título:" default_value="Global Customer Solutions"/>
+        <UserPref name="VarImagenDestacadaThirdBlock" display_name="Imagen destacada:" default_value=""/>
+        
+        <UserPref name="VarBlock3BotonTexto" display_name="Texto boton:" default_value=""/>
+        <UserPref name="VarBlock3BotonURL" display_name="URL boton:" default_value=""/>
+        
+        <UserPref name="VarComentThirdBlock" display_name="Comentario (admite bbcode)" default_value="Texto adicional"/>        
+        <UserPref name="VarColorLetraThirdBlock" display_name="Color texto por defecto" default_value="#666"/>
+        <UserPref name="VarSizeThirdBlock" display_name="Tamaño de texto por defecto" default_value="12"/>
+        <Content type="html" view="home"><![CDATA[
+                <style>         
+                        #content_generic{
+                        float:left;
+                        width:100%;
+                
+                        background-color: transparent;
+                        background-repeat: no-repeat;
+                        background-position: top;
+                        height:145px;
+                        }
+                        
+                        #content_divfirstblock{
+                        float:left;
+                                margin:10px 0px 0px 5px;                        
+                                
+                        
+                        }
+                        #content_divsecondblock{
+                                float:left;
+                                margin:10px 0px 0px 20px;
+                                
+                                }
+                        #content_divthirdblock {
+                            float:left;
+                                margin:10px 0px 0px 20px;
+                                
+                        }
+                        #content_divfirstblock img{
+                         margin: 0 15px 20px 0;
+                        } 
+                        #content_divsecondblock img{
+                         margin: 0 15px 20px 0;
+                        } 
+                        #content_divthirdblock img{
+                         margin: 0 15px 20px 0;
+                        }
+                        #content_divfirstblock, 
+                        #content_divsecondblock, 
+                        #content_divthirdblock a img{
+                         padding: 0;
+                        }
+                        
+                        .sites-adminfooter {
+                                display:none;
+                        }
+                        h2.titulobloque {
+                                font-size: 16px;
+                                margin: 0 0 7px 0;
+                                color: #3F78B2;
+                        }                       
+                        
+                        .margintop {
+                                margin-top: 7px !important;
+                        }
+                        .sites-adminfooter {
+                                display:none;
+                        }
+                        
+                        /********/
+                        .content_div img {
+                                padding: 0 15px 10px 0;
+                        }
+                        .content_div {
+                                background-image: url('https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png');
+                                width:296px;
+                                height:180px;
+                                background-color: transparent;
+                                 background-repeat: no-repeat; 
+                                 background-position: top;
+                        }
+                        .content_div a img {
+                                padding: 0;
+                        }
+                        .sites-adminfooter {
+                                display:none;
+                        }
+                        h2.titulobloque {
+                                font-size: 16px;
+                                margin: 0 0 7px 0;
+                                color: #3F78B2;
+                        }                       
+                        a.enlaceboton {
+                                background-image: url("https://bbvagcs.googlecode.com/svn/trunk/fondobotonuntercio.png");
+                                background-repeat: no-repeat;
+                                color: #FFFFFF;
+                                display: block;
+                                float: right;
+                                font-size: 12px;
+                                font-weight: bold;
+                                height: 31px;
+                                margin: 0px;
+                                padding-top: 10px;
+                                text-align: center;
+                                text-decoration: none;
+                                width: 165px;
+                        }       
+                        a:hover.enlaceboton, 
+                        a:active.enlaceboton,
+                        a:visited.enlaceboton {
+                                color: #FFFFFF;
+                        }
+                        .margintop {
+                                margin-top: 7px !important;
+                        }
+                </style>
+                
+                <div id="content_generic">
+                        <div class="content_div" id="content_divfirstblock"></div>
+                        <div class="content_div" id="content_divsecondblock" > </div>
+                        <div class="content_div" id="content_divthirdblock" ></div>                     
+                </div>
+
+                <script type="text/javascript" src="https://bbvagcs.googlecode.com/svn/trunk/bbcode2html.js"></script>
+
+                <script type="text/javascript">
+                
+                        var html="";
+                        var firstblock="";
+                        var secondblock="";
+                        var thirdblock="";
+                        // Obtener userprefs
+                        var prefs = new gadgets.Prefs();
+                        
+                        var VarComentFirstBlock=prefs.getString("VarComentFirstBlock");
+                        var VarComentSecondBlock=prefs.getString("VarComentSecondBlock");
+                        var VarComentThirdBlock=prefs.getString("VarComentThirdBlock");
+                        
+                        var VarBorde="0";
+                        var VarAlign="left";
+                        var VarColorFondo="transparent";
+                        
+                        var VarColorLetraFirstBlock=prefs.getString("VarColorLetraFirstBlock");
+                        var VarColorLetraSecondBlock=prefs.getString("VarColorLetraSecondBlock");
+                        var VarColorLetraThirdBlock=prefs.getString("VarColorLetraThirdBlock");
+                        
+                        var VarColorBorde="#fff";
+                        
+                        var VarSizeFirstBlock=prefs.getString("VarSizeFirstBlock");
+                        var VarSizeSecondBlock=prefs.getString("VarSizeSecondBlock");
+                        var VarSizeThirdBlock=prefs.getString("VarSizeThirdBlock");
+                        
+                        var VarImagenDestacadaFirstBlock=prefs.getString("VarImagenDestacadaFirstBlock");
+                        var VarImagenDestacadaSecondBlock=prefs.getString("VarImagenDestacadaSecondBlock");
+                        var VarImagenDestacadaThirdBlock=prefs.getString("VarImagenDestacadaThirdBlock");
+                        
+                        var VarTituloBloqueFirstBlock=prefs.getString("VarTituloBloqueFirstBlock");
+                        var VarTituloBloqueSecondBlock=prefs.getString("VarTituloBloqueSecondBlock");
+                        var VarTituloBloqueThirdBlock=prefs.getString("VarTituloBloqueThirdBlock");
+                        
+                    var VarBlock1BotonTexto=prefs.getString("VarBlock1BotonTexto");
+                        var VarBlock1BotonURL=prefs.getString("VarBlock1BotonURL");
+                        
+                         var VarBlock2BotonTexto=prefs.getString("VarBlock2BotonTexto");
+                        var VarBlock2BotonURL=prefs.getString("VarBlock2BotonURL");
+                
+                         var VarBlock3BotonTexto=prefs.getString("VarBlock3BotonTexto");
+                        var VarBlock3BotonURL=prefs.getString("VarBlock3BotonURL");     
+                
+                        function creaEnlaces(url){
+                          window.parent.location.href = url;                    
+                        }                       
+                        
+                        function insertarImagenDestacada1()
+                        {
+                                //BLOQUE1
+                                var firstblock="";
+                                
+                                if (VarImagenDestacadaFirstBlock!="")
+                                {
+                                        firstblock+='<img style=\"float: left;\" src=\"' + VarImagenDestacadaFirstBlock + '\">';        
+                                }
+                                return firstblock;
+                    }   
+                        
+                        function insertarImagenDestacada2()
+                        {
+                                //BLOQUE2
+                                var secondblock="";
+                                if (VarImagenDestacadaSecondBlock!="")
+                                {
+                                        secondblock+='<img style=\"float: left;\" src=\"' + VarImagenDestacadaSecondBlock + '\">';      
+                                }
+                                return secondblock;
+                    }
+                        function insertarImagenDestacada3()
+                        {
+                                //BLOQUE3
+                                var thirdblock="";
+                                if (VarImagenDestacadaThirdBlock!="")
+                                {
+                                        thirdblock+='<img style=\"float: left;\" src=\"' + VarImagenDestacadaThirdBlock + '\">';        
+                                }
+                                
+                                return thirdblock;
+                    }
+                        
+                        function insertarBotonBlock1()
+                        {
+                                var html="";
+                                if ((VarBlock1BotonTexto!="")&&(VarBlock1BotonURL!=""))
+                                {
+                                        html+='<a href=\"' + VarBlock1BotonURL + '\" title=\"' + VarBlock1BotonTexto + '\" target=\"_parent\" class=\"enlaceboton margintop\">' + VarBlock1BotonTexto + '</a>';
+                                }                       
+                                return html;
+                        }
+                        
+                        
+                        function insertarBotonBlock2()
+                        {
+                                var html="";
+                                if ((VarBlock2BotonTexto!="")&&(VarBlock2BotonURL!=""))
+                                {
+                                        html+='<a href=\"' + VarBlock2BotonURL + '\" title=\"' + VarBlock2BotonTexto + '\" target=\"_parent\" class=\"enlaceboton margintop\">' + VarBlock2BotonTexto + '</a>';
+                                }
+                                return html;
+                        }                       
+                        
+                        function insertarBotonBlock3()
+                        {
+                                var html="";
+                                if ((VarBlock3BotonTexto!="")&&(VarBlock3BotonURL!=""))
+                                {
+                                        html+='<a href=\"' + VarBlock3BotonURL + '\" title=\"' + VarBlock3BotonTexto + '\" target=\"_parent\" class=\"enlaceboton margintop\">' + VarBlock3BotonTexto + '</a>';
+                                }
+                                return html;
+                        }
+                                
+                        
+                        document.body.style.backgroundColor="#fff";                     
+                        //BLOQUE1       
+                
+                        firstblock+='<div style=\"padding: 10px; font-size:' + VarSizeFirstBlock + '; color:' + VarColorLetraFirstBlock + ';\">';
+                        firstblock+=insertarImagenDestacada1();         
+                        firstblock+='<h2 class=\"titulobloque\">' + VarTituloBloqueFirstBlock + '</h2>';
+                        firstblock+=bbcode2html(VarComentFirstBlock);
+                        firstblock+=insertarBotonBlock1();                      
+                        firstblock+='</div>';
+                        
+                        document.getElementById("content_divfirstblock").innerHTML = firstblock;
+                        
+                //BLOQUE2       
+                        
+                        secondblock+='<div style=\"padding: 10px; font-size:' + VarSizeSecondBlock + '; color:' + VarColorLetraSecondBlock + ';\">';
+                        secondblock+=insertarImagenDestacada2();                
+                        secondblock+='<h2 class=\"titulobloque\">' + VarTituloBloqueSecondBlock + '</h2>';
+                        secondblock+=bbcode2html(VarComentSecondBlock);
+                        secondblock+=insertarBotonBlock2();                     
+                        secondblock+='</div>';
+                        
+                        document.getElementById("content_divsecondblock").innerHTML = secondblock;
+
+                //BLOQUE3                               
+                        
+                        thirdblock+='<div style=\"padding: 10px; font-size:' + VarSizeThirdBlock + '; color:' + VarColorLetraThirdBlock + ';\">';
+                        thirdblock+=insertarImagenDestacada3();         
+                        thirdblock+='<h2 class=\"titulobloque\">' + VarTituloBloqueThirdBlock + '</h2>';
+                        thirdblock+=bbcode2html(VarComentThirdBlock);
+                        thirdblock+=insertarBotonBlock3();                      
+                        thirdblock+='</div>';
+                        
+                        document.getElementById("content_divthirdblock").innerHTML = thirdblock;        
+                        gadgets.window.adjustHeight();
+                </script>
+        ]]>  
+        </Content>  
+        <Content type="html" view="configuration"  preferred_height="480">
+        <![CDATA[
+                <script type="text/javascript" src="https://bbvagcs.googlecode.com/svn/trunk/editorbbcode.js"></script>
+                <style>
+                        table td {
+                                color: #000;
+                                font-size: 11px;
+                                font-weight: bold;
+                        }
+                        table td input,
+                        textarea {
+                                color: #000;
+                                font-size: 11px;                                
+                        }                       
+                        input#VarTituloBloqueFirstBlock,
+                        input#VarTituloBloqueSecondBlock,
+                        input#VarTituloBloqueThirdBlock{
+                                width: 300px;
+                        }
+                        input#VarImagenDestacadaFirstBlock,
+                        input#VarImagenDestacadaSecondBlock,
+                        input#VarImagenDestacadaThirdBlock{
+                                width: 575px;
+                        }
+                        input#VarURLFirstBlock,
+                        input#VarURLSecondBlock,
+                        input#VarURLThirdBlock{
+                                width: 575px;
+                        }
+                        .btnTexto {
+                                width: 200px;
+                        }
+                        .btnURL {
+                                width: 345px;
+                        }
+                        .destacado {
+                                color:red;
+                                font-size:20px;
+                                font-weight:bold;
+                        }
+                        .textodefecto {
+                                width: 40px;
+                        }
+                        .textocolor {
+                                width: 57px;
+                        }
+                </style>
+                <!--FIRST BLOCK-->
+                <table width="100%" border="0" id="tablaconfig">                        
+                        <tr>            
+                                <td>
+                                        T&iacute;tulo: <input type="text" id="VarTituloBloqueFirstBlock" value="__UP_VarTituloBloqueFirstBlock__" onchange="registra('VarTituloBloqueFirstBlock')">                                     
+                                </td>
+                        </tr>
+                        <tr>            
+                                <td>
+                                        Im&aacutegen destacada (URL): <input type="text" id="VarImagenDestacadaFirstBlock" value="__UP_VarImagenDestacadaFirstBlock__" onchange="registra('VarImagenDestacadaFirstBlock')">                                     
+                                </td>
+                        </tr>
+                        <tr>            
+                                <td>
+                                        Bot&oacute;n - Texto: <input type="text" id="VarBlock1BotonTexto" class="btnTexto" value="__UP_VarBlock1BotonTexto__" onchange="registra('VarBlock1BotonTexto')">               
+                                        Bot&oacute;n - URL: <input type="text" id="VarBlock1BotonURL" class="btnURL" value="__UP_VarBlock1BotonURL__" onchange="registra('VarBlock1BotonURL')">                                 
+                                </td>
+                        </tr>
+                        </table>
+                <table width="100%" height="170px;" border="0" id="tablaconfig1">                       
+                        <tr>            
+                                <td>
+                                        Texto (admite bbcode):<br/>
+                                        <script language="Javascript">
+                                        <!--
+                                                editor_para("VarComentFirstBlock");
+                                        //-->
+                                        </script>
+                                        <textarea id="VarComentFirstBlock" style="height: 100px; width: 100%" onchange="registra('VarComentFirstBlock')" >__UP_VarComentFirstBlock__</textarea>
+                                </td>
+                        </tr>
+                </table>
+                <table width="100%" border="0" id="tablaconfig2">                       
+                        <tr>
+                                <td>Tamaño del texto por defecto: <input type="text" class="textodefecto" id="VarSizeFirstBlock" value="__UP_VarSizeFirstBlock__" onchange="registra('VarSizeFirstBlock')"></td>   
+                        </tr>
+                        <tr>
+                                <td>Color de texto por defecto: <input type="text" class="textocolor" id="VarColorLetraFirstBlock" value="__UP_VarColorLetraFirstBlock__" onchange="registra('VarColorLetraFirstBlock')"></td>               
+                        </tr>
+                        <tr>
+                                <td class="destacado"><br/><br/>No modificar la altura y el ancho del gadget</td>
+                        </tr>
+                </table>        
+                
+                <!--SECOND BLOCK-->
+                <table width="100%" border="0" id="tablaconfig">                        
+                        <tr>            
+                                <td>
+                                        T&iacute;tulo: <input type="text" id="VarTituloBloqueSecondBlock" value="__UP_VarTituloBloqueSecondBlock__" onchange="registra('VarTituloBloqueSecondBlock')">                                  
+                                </td>
+                        </tr>
+                        <tr>            
+                                <td>
+                                        Im&aacutegen destacada (URL): <input type="text" id="VarImagenDestacadaSecondBlock" value="__UP_VarImagenDestacadaSecondBlock__" onchange="registra('VarImagenDestacadaSecondBlock')">                                  
+                                </td>
+                        </tr>
+                                <tr>            
+                                <td>
+                                        Bot&oacute;n - Texto: <input type="text" id="VarBlock2BotonTexto" class="btnTexto" value="__UP_VarBlock2BotonTexto__" onchange="registra('VarBlock2BotonTexto')">               
+                                        Bot&oacute;n - URL: <input type="text" id="VarBlock2BotonURL" class="btnURL" value="__UP_VarBlock2BotonURL__" onchange="registra('VarBlock2BotonURL')">                                 
+                                </td>
+                        </tr>
+                        </table>
+                <table width="100%" height="170px;" border="0" id="tablaconfig1">                       
+                        <tr>            
+                                <td>
+                                        Texto (admite bbcode):<br/>
+                                        <script language="Javascript">
+                                        <!--
+                                                editor_para("VarComentSecondBlock");
+                                        //-->
+                                        </script>
+                                        <textarea id="VarComentSecondBlock" style="height: 100px; width: 100%" onchange="registra('VarComentSecondBlock')" >__UP_VarComentSecondBlock__</textarea>
+                                </td>
+                        </tr>
+                </table>
+                <table width="100%" border="0" id="tablaconfig2">                       
+                        <tr>
+                                <td>Tamaño del texto por defecto: <input type="text" class="textodefecto" id="VarSizeSecondBlock" value="__UP_VarSizeSecondBlock__" onchange="registra('VarSizeSecondBlock')"></td>   
+                        </tr>
+                        <tr>
+                                <td>Color de texto por defecto: <input type="text" class="textocolor" id="VarColorLetraFirstBlock" value="__UP_VarColorLetraFirstBlock__" onchange="registra('VarColorLetraSecondBlock')"></td>              
+                        </tr>
+                        <tr>
+                                <td class="destacado"><br/><br/>No modificar la altura y el ancho del gadget</td>
+                        </tr>
+                </table>
+                <!--THIRD BLOCK-->
+                        <table width="100%" border="0" id="tablaconfig">                        
+                        <tr>            
+                                <td>
+                                        T&iacute;tulo: <input type="text" id="VarTituloBloqueThirdBlock" value="__UP_VarTituloBloqueThirdBlock__" onchange="registra('VarTituloBloqueThirdBlock')">                                     
+                                </td>
+                        </tr>
+                        <tr>            
+                                <td>
+                                        Im&aacutegen destacada (URL): <input type="text" id="VarImagenDestacadaThirdBlock" value="__UP_VarImagenDestacadaThirdBlock__" onchange="registra('VarImagenDestacadaThirdBlock')">                                     
+                                </td>
+                        </tr>
+                                <tr>            
+                                <td>
+                                        Bot&oacute;n - Texto: <input type="text" id="VarBlock3BotonTexto" class="btnTexto" value="__UP_VarBlock3BotonTexto__" onchange="registra('VarBlock3BotonTexto')">               
+                                        Bot&oacute;n - URL: <input type="text" id="VarBlock3BotonURL" class="btnURL" value="__UP_VarBlock3BotonURL__" onchange="registra('VarBlock3BotonURL')">                                 
+                                </td>
+                        </tr>
+                        </table>
+                <table width="100%" height="170px;" border="0" id="tablaconfig1">                       
+                        <tr>            
+                                <td>
+                                        Texto (admite bbcode):<br/>
+                                        <script language="Javascript">
+                                        <!--
+                                                editor_para("VarComentThirdBlock");
+                                        //-->
+                                        </script>
+                                        <textarea id="VarComentThirdBlock" style="height: 100px; width: 100%" onchange="registra('VarComentThirdBlock')" >__UP_VarComentThirdBlock__</textarea>
+                                </td>
+                        </tr>
+                </table>
+                <table width="100%" border="0" id="tablaconfig2">                       
+                        <tr>
+                                <td>Tamaño del texto por defecto: <input type="text" class="textodefecto" id="VarSizeThirdBlock" value="__UP_VarSizeThirdBlock__" onchange="registra('VarSizeThirdBlock')"></td>   
+                        </tr>
+                        <tr>
+                                <td>Color de texto por defecto: <input type="text" class="textocolor" id="VarColorLetraThirdBlock" value="__UP_VarColorLetraThirdBlock__" onchange="registra('VarColorLetraThirdBlock')"></td>               
+                        </tr>
+                        <tr>
+                                <td class="destacado"><br/><br/>No modificar la altura y el ancho del gadget</td>
+                        </tr>
+                </table>
+                
+                <script type="text/javascript">                 
+                        // Get userprefs
+                        var prefs = new gadgets.Prefs();                        
+                        function registra(variable)
+                        {
+                                prefs.set(variable,document.getElementById(variable).value);
+                        }       
+                        gadgets.window.adjustHeight();
+                </script>   
+        ]]>
+        </Content>
+</Module>
