@@ -317,18 +317,18 @@
         function datospagina()
         {
                 var parametros = gadgets.util.getUrlParameters()["parent"];     
-                if (parametros.indexOf("canales")!=-1)
+                if (parametros.indexOf("Canal")!=-1)
                 {
                         document.getElementById("Canal").style.backgroundColor = "#2586D7";
                 }
-                if (parametros.indexOf("oneformat")!=-1)
+                if (parametros.indexOf("clientes")!=-1)
                 {
-                        document.getElementById("cleintes").style.backgroundColor = "#2586d7";
+                        document.getElementById("clientes").style.backgroundColor = "#2586d7";
                 }
  
                 if (parametros.indexOf("metodologia")!=-1)
                 {
-                        document.getElementById("comingsoon").style.backgroundColor = "#2586d7";
+                        document.getElementById("metodologia").style.backgroundColor = "#2586d7";
                 }
                         
         }
