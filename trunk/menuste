@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="menu portal BBVA1" >
+<ModulePrefs title="menu portal STE PROMOCION" >
         <Require feature="dynamic-height"/>   
         <Require feature="setprefs" />  
 </ModulePrefs>  
@@ -297,6 +297,17 @@
                                         <li><a href="https://sites.google.com/a/bbva.com/ste-promocion" target="_parent">Catálogo servicios</a></li>  
                         </ul>
                         </li>
+                        
+                        <li class="top"><a id="Comercializacion" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion" target="_parent">Comercialización</a>
+                        <ul style="left:-99999px; display: none;" class="sub">
+                                        
+                                        <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion/pipeline" target="_parent">Pipeline STE</a></li>
+                                        <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion/comite-comercializacion" target="_parent">Comité de Comercialización</a></li>  
+                                        <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion/gestiones-comerciales" target="_parent">Gestiones Comerciales</a></li>  
+                                        <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion/rfps" target="_parent">RFPs</a></li>  
+                        </ul>
+                        </li>
+                        
                         <li class="top"><a id="Clientes" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion" target="_parent">Clientes</a>
                         <ul style="left:-99999px; display: none;" class="sub">
                         </ul>
