@@ -289,24 +289,19 @@
         <div id="menu">
                 <ul id="dropline">
                         <li class="home"><a style="color:#fff;width:10px;margin-left:5px;" href="https://sites.google.com/a/bbva.com/ste-promocion/" target="_parent" onclick="mark"></a></li>
-                        <li class="top"><a id="Canal" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion" target="_parent">BBVA net cash</a>
-                        <ul style="left:-99999px; display: none;" class="sub">
-                                        
+                        
+                        
+                        
+                        <li class="top"><a id="LEGO" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion/home/canal" target="_parent">BBVA net cash</a>
+                         <ul style="left:-99999px; display: none;" class="sub">
+                                         
+                                        <li><a href="https://reportes.es.igrupobbva/cgi-bin/ibi_cgi/ibiweb.exe?IBIF_ex=CIDRS53&CLASI=1&SALIDA=HTMTABLE&PROXHORA=1417711047401" target="_parent">Catálogo de Servicios Telemáticos</a></li>
                                         <li><a href="https://sites.google.com/a/bbva.com/ste-promocion" target="_parent">Manuales</a></li>
                                         <li><a href="https://sites.google.com/a/bbva.com/ste-promocion" target="_parent">Circuitos</a></li>  
-                                        <li><a href="https://sites.google.com/a/bbva.com/ste-promocion" target="_parent">Catálogo servicios</a></li>  
+                                       
                         </ul>
-                        </li>
-                        <li class="top"><a id="LEGO" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion/home/informes" target="_parent">Información de gestión</a>
-                        <ul style="left:-99999px; display: none;" class="sub">
-                                        
-                                        <li><a href="https://reportes.es.igrupobbva/MSTR_WBAM/MicroStrategyCIB/servlet/mstrWeb?evt=3010&src=mstrWeb.3010&loginReq=true&Server=LPMST501&Project=ENDT&Port=0&mstrWeb=-LPMST501.ENDT.0_&welcome=*-1.*-1.0.0.0&ssb=*-1.*-1.0.0...1.39..1.2.1.1....1.2.1-3.768.769.774.770.773.14081.14080.8.772.775_&results=0.*0.*0.8.0.0.*0.268453447.*-1.1.*0" target="_parent">LEGO</a></li>
-                                        <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/informes" target="_parent">Informes STE</a></li>  
-                        </ul>
-                        </li>
                         
-                        <li class="top"><a id="LEGO" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion/home/canal" target="_parent">Canal</a>
-                          </li>
+                        </li>
                           
                             <li class="top"><a id="LEGO" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion/home/producto" target="_parent">Producto</a>
                         <ul style="left:-99999px; display: none;" class="sub">
@@ -328,7 +323,13 @@
                                      
                         </ul>
                         </li>
-                       
+                       <li class="top"><a id="LEGO" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion/home/informes" target="_parent">Información de gestión</a>
+                        <ul style="left:-99999px; display: none;" class="sub">
+                                        
+                                        <li><a href="https://reportes.es.igrupobbva/MSTR_WBAM/MicroStrategyCIB/servlet/mstrWeb?evt=3010&src=mstrWeb.3010&loginReq=true&Server=LPMST501&Project=ENDT&Port=0&mstrWeb=-LPMST501.ENDT.0_&welcome=*-1.*-1.0.0.0&ssb=*-1.*-1.0.0...1.39..1.2.1.1....1.2.1-3.768.769.774.770.773.14081.14080.8.772.775_&results=0.*0.*0.8.0.0.*0.268453447.*-1.1.*0" target="_parent">LEGO</a></li>
+                                        <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/informes" target="_parent">Informes STE</a></li>  
+                        </ul>
+                        </li>
                         
                 </ul>
         </div>
