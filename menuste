@@ -304,6 +304,19 @@
                                         <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/informes" target="_parent">Informes STE</a></li>  
                         </ul>
                         </li>
+                        
+                        <li class="top"><a id="LEGO" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion/home/canal" target="_parent">Canal</a>
+                          </li>
+                          
+                            <li class="top"><a id="LEGO" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion/home/producto" target="_parent">Producto</a>
+                        <ul style="left:-99999px; display: none;" class="sub">
+                                        
+                                        <li><a href="https://sites.google.com/a/bbva.com/karla-prueba-2/" target="_parent">Mapa de Cobros y Pagos</a></li>
+                                        <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/producto" target="_parent">Precios en Cash Management</a></li>  
+                        </ul>
+                        </li>
+                        
+                        
                         <li class="top"><a id="Comercializacion" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion" target="_parent">Comercialización</a>
                         <ul style="left:-99999px; display: none;" class="sub">
                                         
