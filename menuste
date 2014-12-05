@@ -317,8 +317,10 @@
                                         
                                         <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion/gestiones-comerciales/pipeline" target="_parent">Gestiones comerciales (pipeline)</a></li>
                                         <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion/rfps/rfps---pipeline" target="_parent">RFPs (pipeline)</a></li>  
+                                        <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion/evolutivos" target="_parent">Evolutivos</a></li>  
                                         <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion/gestiones-comerciales---descripcion" target="_parent">Campañas Comerciales</a></li>  
                                         <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion/comite-comercializacion" target="_parent">Comité de Comercialización</a></li>  
+                                                                                 <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/comercializacion/presupuestos" target="_parent">Presupuestos STE</a></li> 
                                         
                                      
                         </ul>
@@ -330,6 +332,10 @@
                                         <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/informes" target="_parent">Informes STE</a></li>  
                                          <li><a href="https://sites.google.com/a/bbva.com/ste-promocion/home/comunicaciones" target="_parent">Comunicaciones</a></li>  
                         </ul>
+                        </li>
+                        
+                            <li class="top"><a id="LEGO" class="principal" href="https://sites.google.com/a/bbva.com/site-sepa/" target="_parent">SEPA</a>
+                      
                         </li>
                         
                 </ul>
