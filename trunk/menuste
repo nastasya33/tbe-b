@@ -296,7 +296,7 @@
                          <ul style="left:-99999px; display: none;" class="sub">
                                         <li><a href="https://sites.google.com/a/bbva.com/bbva-net-cash-site-comercial/home" target="_parent">BBVA net cash - site comercial</a></li> 
                                         <li><a href="https://sites.google.com/a/bbva.com/bbva-net-cash-site-comercial/videos/tutoriales" target="_parent">BBVA net cash - videos tutoriales</a></li> 
-                                        <li><a href="https://reportes.es.igrupobbva/cgi-bin/ibi_cgi/ibiweb.exe?IBIF_ex=CIDRS53&CLASI=1&SALIDA=HTMTABLE&PROXHORA=1417711047401" target="_parent">Catálogo de Servicios Telemáticos</a></li>
+            
                                       
                                        
                         </ul>
@@ -335,6 +335,10 @@
                         </li>
                         
                             <li class="top"><a id="LEGO" class="principal" href="https://sites.google.com/a/bbva.com/site-sepa/" target="_parent">SEPA</a>
+                      
+                        </li>
+                        
+                        <li class="top"><a id="LEGO" class="principal" href="https://sites.google.com/a/bbva.com/ste-promocion/departamento-promocion" target="_parent">Departamento Promoción</a>
                       
                         </li>
                         
