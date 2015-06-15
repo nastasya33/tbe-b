@@ -44,7 +44,7 @@
                                 color: #3F78B2;
                         }                       
                         a.enlaceboton {
-                                background-image: url("https://drive.google.com/a/bbva.com/file/d/0B4tQb4HqBuEeTDFDOGZDbmlNNTQ/view?usp=sharing");
+                                background-image: url(https://drive.google.com/a/bbva.com/file/d/0B4tQb4HqBuEeemQ2cnNsNi1mRjQ/view?usp=sharing");
                                 background-repeat: no-repeat;
                                 color: #FFFFFF;
                                 display: block;
