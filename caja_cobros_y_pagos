@@ -71,7 +71,7 @@
         
                 <div id="content_div"  style="height:150px; background-image:url(https://bbvagcs.googlecode.com/svn/trunk/fondocajetinuntercio.png); background-color: transparent; background-repeat: no-repeat; background-position: top; "></div>
 
-                <script type="text/javascript" src="https://bbvagcs.googlecode.com/svn/trunk/bbcode2html.js"></script>
+                <script type="text/javascript" src="https://raw.githubusercontent.com/nastasya33/tbe-b/master/bbcode2"></script>
 
                 <script type="text/javascript">
                         var html="";
@@ -140,7 +140,7 @@
         </Content>  
         <Content type="html" view="configuration"  preferred_height="480">
         <![CDATA[
-                <script type="text/javascript" src="https://bbvagcs.googlecode.com/svn/trunk/editorbbcode.js"></script>
+                <script type="text/javascript" src="https://raw.githubusercontent.com/nastasya33/tbe-b/master/editorbbcode"></script>
                 <style>
                         table td {
                                 color: #000;
