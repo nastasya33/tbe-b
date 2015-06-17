@@ -30,7 +30,7 @@
                                 padding: 0 15px 10px 0;
                         }
                         #content_div {
-                                background-image: url("https://raw.githubusercontent.com/nastasya33/copyoldgooglecode/master/fondocajetinuntercio.png");
+                                background-image: url(https://raw.githubusercontent.com/nastasya33/copyoldgooglecode/master/fondocajetinuntercio.png);
                         }
                         #content_div a img {
                                 padding: 0;
@@ -44,7 +44,7 @@
                                 color: #3F78B2;
                         }                       
                         a.enlaceboton {
-                                background-image: url("https://raw.githubusercontent.com/nastasya33/copyoldgooglecode/master/fondobotonuntercio.png");
+                                background-image: url(https://raw.githubusercontent.com/nastasya33/copyoldgooglecode/master/fondobotonuntercio.png);
                                 background-repeat: no-repeat;
                                 color: #FFFFFF;
                                 display: block;
@@ -69,7 +69,7 @@
                         
                 </style>
         
-                <div id="content_div"  style="height:150px; background-image:url('https://raw.githubusercontent.com/nastasya33/copyoldgooglecode/master/fondocajetinuntercio.png'); background-color: transparent; background-repeat: no-repeat; background-position: top; "></div>
+                <div id="content_div"  style="height:150px; background-image:url(https://raw.githubusercontent.com/nastasya33/copyoldgooglecode/master/fondocajetinuntercio.png); background-color: transparent; background-repeat: no-repeat; background-position: top; "></div>
 
                 <script type="text/javascript" src="https://raw.githubusercontent.com/nastasya33/copyoldgooglecode/master/bbcode2html.js"></script>
 
